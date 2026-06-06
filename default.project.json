@@ -1,0 +1,15 @@
+{
+  "name": "BrioUtils",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Packages": {
+        "$className": "Folder",
+        "BrioUtils": {
+          "$path": "src"
+        }
+      }
+    }
+  }
+}

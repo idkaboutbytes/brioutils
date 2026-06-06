@@ -1,0 +1,26 @@
+name = "idkaboutbytes/brioutils"
+version = "1.0.0"
+description = "Brioutils package for Roblox."
+license = "MIT"
+authors = ["idkaboutbytes"]
+repository = "https://github.com/idkaboutbytes/brioutils"
+includes = [
+    "pesde.toml",
+    "README.md",
+    "CHANGELOG.md",
+    "default.project.json",
+    "src/**/*.luau",
+]
+
+[target]
+environment = "roblox"
+lib = "src/init.luau"
+build_files = ["src"]
+
+[wally_indices]
+default = "https://github.com/UpliftGames/wally-index"
+
+[dependencies]
+Brio = { repo = "idkaboutbytes/brio", rev = "v1.0.0" }
+Maid = { repo = "idkaboutbytes/maid", rev = "v1.0.0" }
+Table = { repo = "idkaboutbytes/table", rev = "v1.0.0" }
